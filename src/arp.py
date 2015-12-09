@@ -9,7 +9,7 @@ from scapy.all import Ether, ARP
 eth = Ether(dst = "ff:ff:ff:ff:ff:ff")
 
 # IP range in prefix notation - first 24 bits are left unchanged
-arp = ARP(pdst = '192.168.137.0/24')
+arp = ARP(pdst = '192.168.0.0/16')
 
 # send and recieve multiple packets
 answered, unanswered = srp(eth / arp)
