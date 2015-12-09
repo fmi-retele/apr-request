@@ -1,4 +1,4 @@
-# apr-request
+# arp-request
 Make an arp request with scapy
 ### What is [ARP](http://www.networksorcery.com/enp/protocol/arp.htm)?
 
